@@ -44,7 +44,7 @@
 ## 🖼️ App Demo
 
 <p align="center">
-  <img src="public/screenshots/screenshot2.jjpg" alt="ASCII Art Display Demo 2" width="400px">
+  <img src="public/screenshots/screenshot2.jpg" alt="ASCII Art Display Demo 2" width="400px">
   <img src="public/screenshots/screenshot3.png" alt="ASCII Art Display Demo 3" width="400px">
   <img src="public/screenshots/screenshot4.jpg" alt="ASCII Art Display Demo 4" width="400px">
 </p>
