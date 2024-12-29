@@ -115,7 +115,7 @@ export const AsciiDisplay = ({
     // Download the image
     const link = document.createElement("a");
     link.href = canvas.toDataURL("image/jpeg");
-    link.download = "ascii_art.png";
+    link.download = "meow.png";
     link.click();
   };
 
@@ -149,12 +149,7 @@ export const AsciiDisplay = ({
       <pre className="font-mono text-sm text-green-500 whitespace-pre bg-black p-4 rounded-md">
         {isInverted ? invertedAsciiArt : getCombinedDisplay()}
       </pre>
-      <Button
-        variant="ghost"
-        size="sm"
-        onClick={() => setIsInverted(!isInverted)}
-        className="bg-gray-800 text-white hover:bg-gray-700"
-      >
+      <Button onClick={() => setIsInverted(!isInverted)}>
         <RefreshCcw className="h-4 w-4 mr-2" />
         {isInverted ? "Revert to Normal" : "Invert Brightness"}
       </Button>
