@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { ImageUploader } from "@/components/ImageUploader";
 import { AsciiDisplay } from "@/components/AsciiDisplay";
 import { InfoForm } from "@/components/InfoForm";
@@ -8,10 +8,11 @@ import { Toaster } from "@/components/ui/toaster";
 import { useToast } from "@/hooks/use-toast";
 
 const Home = () => {
-  const [asciiArt, setAsciiArt] = React.useState("");
-  const [formData, setFormData] = React.useState({ signature: "" });
-  const [customFields, setCustomFields] = React.useState([]);
-  const [currentImage, setCurrentImage] = React.useState(null);
+  const [asciiArt, setAsciiArt] = useState("");
+  const [formData, setFormData] = useState({ signature: "" });
+  const [customFields, setCustomFields] = useState([]);
+  const [currentImage, setCurrentImage] = useState(null);
+  const [invert, setInvert] = useState(false);
   const { toast } = useToast();
 
   const handleImageRemove = () => {
@@ -50,6 +51,8 @@ const Home = () => {
                     customFields={customFields}
                     currentImage={currentImage}
                     onRemoveImage={handleImageRemove}
+                    invert={invert}
+                    setInvert={setInvert}
                   />
                 )}
               </CardContent>
