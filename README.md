@@ -1,7 +1,7 @@
 <h1 align="center">ASCIIBIDI</h1>
 
 <p align="center">
-  <img src="public/screenshots/screenshot1.png" alt="ASCII Art Display Demo 1" width="400px">
+  <img src="public/screenshots/screenshot1.png" alt="ASCII Art Display Demo 1" width="600px" height="300px">
 </p>
 
 <p align="center">
@@ -44,9 +44,9 @@
 ## 🖼️ App Demo
 
 <p align="center">
-  <img src="public/screenshots/screenshot2.jpg" alt="ASCII Art Display Demo 2" width="400px">
-  <img src="public/screenshots/screenshot3.png" alt="ASCII Art Display Demo 3" width="400px">
-  <img src="public/screenshots/screenshot4.jpg" alt="ASCII Art Display Demo 4" width="400px">
+  <img src="public/screenshots/screenshot2.jpg" alt="ASCII Art Display Demo 2" width="400px" height="400px">
+  <img src="public/screenshots/screenshot3.png" alt="ASCII Art Display Demo 3" width="800px" height="400px">
+  <img src="public/screenshots/screenshot4.jpg" alt="ASCII Art Display Demo 4" width="400px" height="400px">
 </p>
 
 ## 🤝 Contributing
