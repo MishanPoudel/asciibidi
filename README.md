@@ -1,7 +1,7 @@
 <h1 align="center">ASCIIBIDI</h1>
 
 <p align="center">
-  <img src="public/screenshots/screenshot1.png" alt="ASCII Art Display Demo 1" width="600px" height="300px">
+  <img src="public/screenshots/screenshot1.png" alt="ASCII Art Display Demo 1" height="300px">
 </p>
 
 <p align="center">
