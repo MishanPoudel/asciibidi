@@ -70,3 +70,18 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes float-in {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-float-in {
+  animation: float-in 0.4s ease-out;
+}

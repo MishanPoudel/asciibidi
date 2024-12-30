@@ -33,7 +33,7 @@ export const AsciiDisplay = ({
 
     const asciiLines = asciiArt.split("\n");
     const infoLines = customFields.map(
-      (field) => `${field}: ${formData[field]}`
+      (field) => `${field} ${formData[field]}`
     );
 
     // Ensure info lines don't exceed ASCII art height
